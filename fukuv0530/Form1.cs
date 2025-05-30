@@ -12,7 +12,8 @@ namespace fukuv0530
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Left -= vx;
+            label1.Left = -vx;
+            timer1.Enabled = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
